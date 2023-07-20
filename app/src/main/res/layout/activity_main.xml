@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#884B4B"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/fortnite"
+        android:layout_width="243dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="432dp"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:text="Sign in with Google"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="204dp"
+        app:layout_constraintEnd_toEndOf="@+id/fortnite"
+        app:layout_constraintTop_toTopOf="@+id/fortnite"
+        app:srcCompat="@drawable/googleg_standard_color_18" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="749dp"
+        android:layout_height="424dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="288dp"
+        android:rotation="-92"
+        android:rotationX="13"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/vector_film_strip_png_roll_retro_film_strip_isolated_transparent_background_156846_1969_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="482dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="134dp"
+        android:rotation="218"
+        android:rotationY="-68"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vector_film_strip_png_roll_retro_film_strip_isolated_transparent_background_156846_1969_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="514dp"
+        android:layout_height="229dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:rotation="-50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vector_film_strip_png_roll_retro_film_strip_isolated_transparent_background_156846_1969_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="284dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="364dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fortnite" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
